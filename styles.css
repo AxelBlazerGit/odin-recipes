@@ -13,20 +13,22 @@ body{
     width: 18%;
 }
 #heade{
+    margin:0;
+    padding:0;
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
     color:rgb(129, 155, 149);
 }
-span {
-    border: 1px #cccccc solid;
-    padding: 4px;
-    margin: auto;
+.container {
+    align-items:center; 
+    float: left;
   }
-  
-  figcaption {
-    background-color: black;
-    color: white;
-    font-style: italic;
-    padding: 2px;
+.image{
+    height:50%;
+    width:30%;
+    
+    float:inline-start;
+  }
+.capti{
     text-align: center;
-  }
+}
