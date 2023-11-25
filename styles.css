@@ -1,34 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
 }
-body{
+
+body {
     background-image: url('https://wallpapers.com/images/hd/delicious-food-1584-x-858-picture-8ez2ay3xmzmzpoay.jpg');
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
-#odin{
+#odin {
     width: 18%;
+    display: block;
+    margin: auto;
 }
-#heade{
-    margin:0;
-    padding:0;
+
+#heade {
     text-align: center;
     font-size: 80px;
-    color:rgb(129, 155, 149);
+    color: rgb(129, 155, 149);
 }
+
 .container {
-    align-items:center; 
-    float: left;
-  }
-.image{
-    height:50%;
-    width:30%;
-    
-    float:inline-start;
-  }
-.capti{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.image {
+    width: 30%;
+    height: 0;
+    padding-bottom: 20%; /* Adjust the padding-bottom to control the height */
+    margin: 10px;
+    object-fit: cover;
+}
+
+.capti {
     text-align: center;
 }
