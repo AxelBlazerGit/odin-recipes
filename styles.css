@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url('https://wallpapers.com/images/hd/delicious-food-1584-x-858-picture-8ez2ay3xmzmzpoay.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#odin{
+    width: 18%;
+}
+#heade{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(129, 155, 149);
+}
+span {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
